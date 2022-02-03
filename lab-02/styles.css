@@ -1,0 +1,44 @@
+header{
+  color: purple;
+  background-color: pink;
+}
+main{
+  display: flex;
+  flex-direction: row-reverse;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  flex-shrink: 0
+}
+
+nav a {
+  background-color: pink;
+  color: purple;
+  padding: 0.25em 0.5em;
+  margin: 0.25em 0.5em;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border-style: double;
+  border-color: purple;
+  width: 15vw;
+  box-sizing: border-box;
+}
+nav a:hover {
+  background-color: #CCCCFF;
+}
+
+header, main {
+  overflow: auto;
+}
+
+section{
+  color: purple;
+  width: 85vw;
+  overflow: auto;
+}
+
+header, main {
+  overflow: auto;
+}
